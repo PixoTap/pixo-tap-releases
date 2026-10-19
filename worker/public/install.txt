@@ -28,13 +28,13 @@
 #   --uninstall       卸载（保留用户数据）
 #   -h, --help        显示帮助
 # 环境变量：
-#   PIXO_RELEASES_REPO  发布仓库，默认 pixotap/pixo-tap-releases
+#   PIXO_RELEASES_REPO  发布仓库，默认 PixoTap/pixo-tap-releases
 #   GITHUB_TOKEN        可选；仅用于 API 请求以提高限流额度，不会发给下载地址
 #   PIXO_GITHUB_API     仅测试使用：替换 https://api.github.com（允许 http://127.0.0.1）
 
 set -euo pipefail
 
-DEFAULT_REPO="pixotap/pixo-tap-releases"
+DEFAULT_REPO="PixoTap/pixo-tap-releases"
 SITE_URL="https://pixotap.com"
 APP_ID="com.pixotap.app"
 MIN_GLIBC="2.39"
@@ -104,7 +104,7 @@ PixoTap 一键安装脚本（macOS 与 Linux，自动判断系统）
   --uninstall       卸载（保留用户数据）
   -h, --help        显示帮助
 环境变量：
-  PIXO_RELEASES_REPO  发布仓库，默认 pixotap/pixo-tap-releases
+  PIXO_RELEASES_REPO  发布仓库，默认 PixoTap/pixo-tap-releases
   GITHUB_TOKEN        可选；仅用于 API 请求以提高限流额度
 Windows 请在 PowerShell 中运行：irm https://pixotap.com/install.ps1 | iex
 USAGE

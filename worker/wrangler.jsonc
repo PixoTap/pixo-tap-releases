@@ -86,6 +86,6 @@
     "SMTP_PORT": "465",
     "SMTP_USER": "pixotap@yeah.net",
     "MAIL_FROM": "pixotap@yeah.net",
-    "RELEASES_REPO": "pixotap/pixo-tap-releases"
+    "RELEASES_REPO": "PixoTap/pixo-tap-releases"
   }
 }

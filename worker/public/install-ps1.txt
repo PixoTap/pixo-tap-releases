@@ -13,7 +13,7 @@
 #   -DryRun          只查询并打印将要执行的动作，不下载、不安装、不卸载
 #   -Uninstall       调用已安装的卸载程序（保留用户数据）
 #
-# 只读查询公开发布仓库 pixotap/pixo-tap-releases 的 GitHub Release（不需要令牌）。
+# 只读查询公开发布仓库 PixoTap/pixo-tap-releases 的 GitHub Release（不需要令牌）。
 # 选取含 win-x64-setup.exe 的最新非草稿、非预发布 Release，用同一 Release 的 SHA256SUMS.txt
 # 校验 SHA-256，不符立即中止且不运行安装包。以每用户静默方式安装，不需要管理员权限。
 # 若 Release 带有 SHA256SUMS.txt.sig（已签名清单），会提示；本脚本不在 PowerShell 内验证签名。
@@ -30,7 +30,7 @@ function Install-PixoTap {
     $ErrorActionPreference = 'Stop'
     $ProgressPreference = 'SilentlyContinue'   # Windows PowerShell 5.1 下进度条会让下载慢几十倍
 
-    $repo = 'pixotap/pixo-tap-releases'
+    $repo = 'PixoTap/pixo-tap-releases'
     $uninstallKey = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{6F4C0E7A-3B1D-4E58-9A52-7D1B0C2E94A1}_is1'
     $silent = @('/VERYSILENT', '/SUPPRESSMSGBOXES', '/NORESTART')
 

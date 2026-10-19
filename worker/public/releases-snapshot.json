@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:30:22.571Z",
+  "generated_at": "2026-10-19T10:07:44.901Z",
   "items": [
     {
       "version": "1.46.4",
@@ -14,7 +14,7 @@
           "name": "latest.json",
           "size": 1017,
           "sha256": "a47266054fbf41d3aa99e3587bc565dfcaf3a27d671e775b9b5475b03954a278",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.4/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.4/latest.json"
         },
         {
           "platform": "linux",
@@ -23,7 +23,7 @@
           "name": "PixoTap-1.46.4-linux-x86_64.tar.gz",
           "size": 10409177,
           "sha256": "70651b082c1175e0416f80cb8d5b4f9eb94a040379121e48589d7f0031a928c9",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -32,7 +32,7 @@
           "name": "PixoTap-1.46.4-mac-universal.dmg",
           "size": 8690661,
           "sha256": "19acc7ba6fef9f2ce40a18168467b65a473b33a22d00001f68178131416e88d8",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -41,7 +41,7 @@
           "name": "PixoTap-1.46.4-win-x64-setup.exe",
           "size": 94581992,
           "sha256": "dade6149c5543c34b5b0224d8747310d3405aa13509b937914fd36516d2dd63e",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -50,7 +50,7 @@
           "name": "PixoTap-1.46.4-win-x64.zip",
           "size": 124283611,
           "sha256": "53dbc54119aa3b6e610b0b413e20166f912d9d578af3b2601da302a470407cc9",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.4/PixoTap-1.46.4-win-x64.zip"
         },
         {
           "platform": "other",
@@ -59,7 +59,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "cd1aa5905ece9d443cdb8010c726d6f33a4885b455b8bee74507943cae47f541",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.4/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.4/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -68,7 +68,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "d05f9bf52c8685e9219a1b85744065c2969e332046a9e45a8de6da1efc441d47",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.4/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.4/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -85,7 +85,7 @@
           "name": "latest.json",
           "size": 1017,
           "sha256": "ba016453f2dee51feb1aa1fa3c9680f28b34a0f7e1cefd68d8b70e7ff05e3cf2",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.3/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.3/latest.json"
         },
         {
           "platform": "linux",
@@ -94,7 +94,7 @@
           "name": "PixoTap-1.46.3-linux-x86_64.tar.gz",
           "size": 10391032,
           "sha256": "3fa74153dde38cb8ec5f60e1f39b4a5b15c73c1320ba4184458d659f086e66dd",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -103,7 +103,7 @@
           "name": "PixoTap-1.46.3-mac-universal.dmg",
           "size": 8678618,
           "sha256": "8df0028df7cb49e591102f3ce8c3976d63034b85ce35f585c8a23a0af688cce4",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -112,7 +112,7 @@
           "name": "PixoTap-1.46.3-win-x64-setup.exe",
           "size": 94584755,
           "sha256": "c9788c534df1c8c489bb1ad225a07d0f045ccae501692182739751de3387dd67",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -121,7 +121,7 @@
           "name": "PixoTap-1.46.3-win-x64.zip",
           "size": 124281250,
           "sha256": "fac71ac9a45234efb00c3fa5458e279948af0f1dfa0fa8d70040d2505264ddf8",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.3/PixoTap-1.46.3-win-x64.zip"
         },
         {
           "platform": "other",
@@ -130,7 +130,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "53a8cf786eee52f2e89c4c1e4a0ca88ca62eeb860b3f7e58d2ee952f3e047b03",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.3/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.3/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -139,7 +139,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "d4c544f5a3605fac5f06c1a9fd73d281d9f68e8025d8f0e452a2c07e5f936f40",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.3/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.3/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -156,7 +156,7 @@
           "name": "latest.json",
           "size": 1017,
           "sha256": "572bce446413e196714a04fceef13862df1479726f478be1d6d075a8f1dbc378",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.2/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.2/latest.json"
         },
         {
           "platform": "linux",
@@ -165,7 +165,7 @@
           "name": "PixoTap-1.46.2-linux-x86_64.tar.gz",
           "size": 10359720,
           "sha256": "daae6496be9f836a2f92743e6e1f687dd4de59f1742d7f25e0b56984249efa6d",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -174,7 +174,7 @@
           "name": "PixoTap-1.46.2-mac-universal.dmg",
           "size": 8632651,
           "sha256": "d1d6125324b3d4510c84cc9cbfd5cbbf931752bb93d0ef08d1118ce1e67e5439",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -183,7 +183,7 @@
           "name": "PixoTap-1.46.2-win-x64-setup.exe",
           "size": 94581166,
           "sha256": "595139fe1da9647b71dd472d11c8330f4653bc115943c1e915f945388d6a405c",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -192,7 +192,7 @@
           "name": "PixoTap-1.46.2-win-x64.zip",
           "size": 124270302,
           "sha256": "ad72e2bd8c970f1b4ec5f255824e7cdfd51787d75b5e5728b4629648b45474e7",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.2/PixoTap-1.46.2-win-x64.zip"
         },
         {
           "platform": "other",
@@ -201,7 +201,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "9c516cae35a2a48aa7a1512296feeccbdd1c54ec31b203ae606fc247fef4293a",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.2/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.2/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -210,7 +210,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "10070a58c90eaedda53b0ec0eccf1286757a1647c598b39107dc16234e6f3bfb",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.2/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.2/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -227,7 +227,7 @@
           "name": "latest.json",
           "size": 1013,
           "sha256": "1ca9e02ee189ee05db651699130cd74d282e1ad624ae50ec1b89e0bcaea39d24",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.1/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.1/latest.json"
         },
         {
           "platform": "linux",
@@ -236,7 +236,7 @@
           "name": "PixoTap-1.46.1-linux-x86_64.tar.gz",
           "size": 10289907,
           "sha256": "c213937617362b759bb4910ff09ba91ba99aa0cf04cbb9b57795166662e0c6c1",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -245,7 +245,7 @@
           "name": "PixoTap-1.46.1-mac-universal.dmg",
           "size": 8589486,
           "sha256": "682eda3768d5c7a5aa9d09e79e01958f018af6169c9241e3f52c8de9124e1863",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -254,7 +254,7 @@
           "name": "PixoTap-1.46.1-win-x64-setup.exe",
           "size": 94565546,
           "sha256": "5e55539c82ab3911aae7a781a59f1c363c7c1d91686e001d2e7d72670b6c6d88",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -263,7 +263,7 @@
           "name": "PixoTap-1.46.1-win-x64.zip",
           "size": 124268152,
           "sha256": "1af077652e828aff28781d3b3babb275b446c228e989a024eab81ba5584ba5b8",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.1/PixoTap-1.46.1-win-x64.zip"
         },
         {
           "platform": "other",
@@ -272,7 +272,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "b7ee3ed692acfd0bb8d3ce207f4dbbdbfc26c1dd1e62a47214d0e844eac6ba49",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.1/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.1/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -281,7 +281,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "332cbed4c788fbcfe040c7bbf7762f5fbb774c6d6d7dcaf41abebaf607ccb20b",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.1/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.1/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -298,7 +298,7 @@
           "name": "latest.json",
           "size": 1013,
           "sha256": "dc6afa29ca548cba00beeae2eed4eb5059cffd243e2567ec12450b6191ba9cbb",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.0/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.0/latest.json"
         },
         {
           "platform": "linux",
@@ -307,7 +307,7 @@
           "name": "PixoTap-1.46.0-linux-x86_64.tar.gz",
           "size": 10289906,
           "sha256": "5d26b944e7d99ce681522c3704929631a042902621f314c72588a2144418e0d2",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -316,7 +316,7 @@
           "name": "PixoTap-1.46.0-mac-universal.dmg",
           "size": 8589475,
           "sha256": "d861cc9785136998977b2a453adad151bddbdf0b168b79b3b6939a67e31d1bd7",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -325,7 +325,7 @@
           "name": "PixoTap-1.46.0-win-x64-setup.exe",
           "size": 94577739,
           "sha256": "5f4e0d84340ba02f6bc66874e520bd003001d5ae4d992249a941b7722d05ccda",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -334,7 +334,7 @@
           "name": "PixoTap-1.46.0-win-x64.zip",
           "size": 124268160,
           "sha256": "b9614f8929e1c8fd735f914069de2d072cc9f89cf3a72dbc4a8b147c86a830cb",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.0/PixoTap-1.46.0-win-x64.zip"
         },
         {
           "platform": "other",
@@ -343,7 +343,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "67ce066cf6250dbef19f5902707855ce9354a08ef603aa73473ad96efbcea023",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.0/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.0/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -352,7 +352,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "ff311f2d1b72fd799c75739195789dfe80b2b17d167646200bc85787b993b8ea",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.46.0/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.46.0/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -369,7 +369,7 @@
           "name": "latest.json",
           "size": 1017,
           "sha256": "0595addf4343ec88bdf97b06d76d3707863d7f4b306b305d0348dbf55fe326a9",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.1/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.1/latest.json"
         },
         {
           "platform": "linux",
@@ -378,7 +378,7 @@
           "name": "PixoTap-1.45.1-linux-x86_64.tar.gz",
           "size": 10154005,
           "sha256": "916b205cccdcdab56b2ef1a55f2d19d2cc2ab73f706d0fd84acf8181b6283e91",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -387,7 +387,7 @@
           "name": "PixoTap-1.45.1-mac-universal.dmg",
           "size": 8518629,
           "sha256": "4672f31086f8fbc5dddf0774d71f11163714ad64cb48a951c121dbe9f63642b6",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -396,7 +396,7 @@
           "name": "PixoTap-1.45.1-win-x64-setup.exe",
           "size": 94563156,
           "sha256": "ad83dce0bcfe97ed4cf12a56ca346881de505963f0a530c30e3a636bbf3ff0fe",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -405,7 +405,7 @@
           "name": "PixoTap-1.45.1-win-x64.zip",
           "size": 124262667,
           "sha256": "f97919547d471a093567561ffffb9c1e2eff95e51cb0cf77df6b06cd15d02da8",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.1/PixoTap-1.45.1-win-x64.zip"
         },
         {
           "platform": "other",
@@ -414,7 +414,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "44a654cf0933a7559356a9b0304d32805338ffecd79183c8f5834b98667bec7b",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.1/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.1/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -423,7 +423,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "8e53cdf902bce8a43e7a8a491f906528d325b96acacd0c73e34ee8a3248f3b73",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.1/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.1/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -440,7 +440,7 @@
           "name": "latest.json",
           "size": 1017,
           "sha256": "cc7da86e9aafe95ef1a4fb0dea9b92971ec88d0a57d9ac151319d0cf615fa1aa",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.0/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.0/latest.json"
         },
         {
           "platform": "linux",
@@ -449,7 +449,7 @@
           "name": "PixoTap-1.45.0-linux-x86_64.tar.gz",
           "size": 10154481,
           "sha256": "daaae7a85d52d5dc9f3ff093a642766b72a28fe29a3a1878081325c11bf37fa2",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -458,7 +458,7 @@
           "name": "PixoTap-1.45.0-mac-universal.dmg",
           "size": 8518840,
           "sha256": "c8eacc286dbd88473de72fefab5571e60178b333ec82a1d78b906183a70aefa6",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -467,7 +467,7 @@
           "name": "PixoTap-1.45.0-win-x64-setup.exe",
           "size": 94565151,
           "sha256": "f9133bc98990653ab77b458fc37bc0407c5cc318bfff68e9c2c9dfb36ab50cf9",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -476,7 +476,7 @@
           "name": "PixoTap-1.45.0-win-x64.zip",
           "size": 124262658,
           "sha256": "7383c381b02437717db89e0722e11eb948a5914df7556dff12c5851676b8543f",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.0/PixoTap-1.45.0-win-x64.zip"
         },
         {
           "platform": "other",
@@ -485,7 +485,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "dce8f9e859fbaa340dcc3054946a603a68e2acf414879b8d7d2a09b24b66016a",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.0/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.0/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -494,7 +494,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "1b79deaae8571685bb1020c867d46ba03883ea6c3173417802ff285f365deed9",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.45.0/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.45.0/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -511,7 +511,7 @@
           "name": "latest.json",
           "size": 1016,
           "sha256": "0b786488f4fb7783e57426c3ba308e8ff9fed0f2ca07d3e2808ff262f7343afd",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.1/latest.json"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.1/latest.json"
         },
         {
           "platform": "linux",
@@ -520,7 +520,7 @@
           "name": "PixoTap-1.44.1-linux-x86_64.tar.gz",
           "size": 9920010,
           "sha256": "e2d79a2c67c0bc5cea213bf18c6e7eed05fee0e63ec09feedd204ad8631bed78",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-linux-x86_64.tar.gz"
         },
         {
           "platform": "mac",
@@ -529,7 +529,7 @@
           "name": "PixoTap-1.44.1-mac-universal.dmg",
           "size": 8228285,
           "sha256": "f32c279ed1f7e4afcf1070e7fd165b604d37e2ec683e4a13fa673258945e045e",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-mac-universal.dmg"
         },
         {
           "platform": "win",
@@ -538,7 +538,7 @@
           "name": "PixoTap-1.44.1-win-x64-setup.exe",
           "size": 94550901,
           "sha256": "e56fee71dfa34becf641eed7e4c39a98d064466873b72a92a2716e821770a34e",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -547,7 +547,7 @@
           "name": "PixoTap-1.44.1-win-x64.zip",
           "size": 124234049,
           "sha256": "d3596a7bf8b5488c30cacc271b07af5ff0dd96e8297cd48e73f96f891858426b",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.1/PixoTap-1.44.1-win-x64.zip"
         },
         {
           "platform": "other",
@@ -556,7 +556,7 @@
           "name": "SHA256SUMS.txt",
           "size": 585,
           "sha256": "954990fac8f32c7abfc6b84fc924f64883bde86ce1e1152dcff065b5a326bcaa",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.1/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.1/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -565,7 +565,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "b0a866158ab3c55d49f0da461dc6ae8b18e96730f8669b6c30e4a817a64d6dae",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.1/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.1/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -582,7 +582,7 @@
           "name": "PixoTap-1.44.0-mac-universal.dmg",
           "size": 8214743,
           "sha256": "9ef4025079fdede8ed8f17aa129c7eccd777f8d2e1e3e5110ef2c5bd13ce96ff",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.0/PixoTap-1.44.0-mac-universal.dmg"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.0/PixoTap-1.44.0-mac-universal.dmg"
         },
         {
           "platform": "mac",
@@ -591,7 +591,7 @@
           "name": "PixoTap-1.44.0-mac-universal.zip",
           "size": 8113921,
           "sha256": "a916fba9c7766e509de216cf9adecf58e27ec53763e41720ee755233115ebd49",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.0/PixoTap-1.44.0-mac-universal.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.0/PixoTap-1.44.0-mac-universal.zip"
         },
         {
           "platform": "win",
@@ -600,7 +600,7 @@
           "name": "PixoTap-1.44.0-win-x64-setup.exe",
           "size": 94548426,
           "sha256": "5dad4853e3dd4951ff0c8025a7e32f2d6589874eefc8c4b94b37d992e8b68148",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.0/PixoTap-1.44.0-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.0/PixoTap-1.44.0-win-x64-setup.exe"
         },
         {
           "platform": "other",
@@ -609,7 +609,7 @@
           "name": "SHA256SUMS.txt",
           "size": 412,
           "sha256": "744777fa14de393ad6865e64a2cd94b42527172bc1f995e1443278e1612dd9c3",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.0/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.0/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -618,7 +618,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "674119f1e883bc1af6edf5217254f9fc8c09e90acee3da7ab0a9a921ef8c2787",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.44.0/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.44.0/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -635,7 +635,7 @@
           "name": "PixoTap-0.3.0-linux-x86_64.tar.gz",
           "size": 9908233,
           "sha256": "8c7f99ee8c4d53f95daf14e04670b136345b3984d94f46616709df87cb4395c6",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v0.3.0/PixoTap-0.3.0-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v0.3.0/PixoTap-0.3.0-linux-x86_64.tar.gz"
         },
         {
           "platform": "other",
@@ -644,7 +644,7 @@
           "name": "SHA256SUMS.txt",
           "size": 214,
           "sha256": "c4266840d421764759751c67a8622424825dd13611d687d98c087b9a184dc581",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v0.3.0/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v0.3.0/SHA256SUMS.txt"
         },
         {
           "platform": "other",
@@ -653,7 +653,7 @@
           "name": "SHA256SUMS.txt.sig",
           "size": 97,
           "sha256": "110f0160bf69916e5842ec9fa1963ffe4f94f2f4c3a9073bc79dfe92c438b8fb",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v0.3.0/SHA256SUMS.txt.sig"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v0.3.0/SHA256SUMS.txt.sig"
         }
       ]
     },
@@ -670,7 +670,7 @@
           "name": "PixoTap-0.2.0-linux-x86_64.tar.gz",
           "size": 9875085,
           "sha256": "eb31001f4ec2d52f9e00aae4a0ca44e97ead5a18fd81fc49cb506ff0917ee372",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v0.2.0/PixoTap-0.2.0-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v0.2.0/PixoTap-0.2.0-linux-x86_64.tar.gz"
         },
         {
           "platform": "other",
@@ -679,7 +679,7 @@
           "name": "SHA256SUMS.txt",
           "size": 100,
           "sha256": "14ef37a394f198dcba162af6cd8540e209a544adc77a3cda35e154814c875f2a",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v0.2.0/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v0.2.0/SHA256SUMS.txt"
         }
       ]
     },
@@ -696,7 +696,7 @@
           "name": "PixoTap-1.43.0-win-x64-setup.exe",
           "size": 94280707,
           "sha256": "e91da505b0dec7e16ae8f0a417fde030240093b6e11caca8f8608585ee4d48fa",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.43.0/PixoTap-1.43.0-win-x64-setup.exe"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.43.0/PixoTap-1.43.0-win-x64-setup.exe"
         },
         {
           "platform": "win",
@@ -705,7 +705,7 @@
           "name": "PixoTap-1.43.0-win-x64.zip",
           "size": 124165962,
           "sha256": "65522bba17d7f1c4e06cb6a4a1182a93a2694b5c4c5c247f6d15a4ce30512422",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.43.0/PixoTap-1.43.0-win-x64.zip"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.43.0/PixoTap-1.43.0-win-x64.zip"
         },
         {
           "platform": "other",
@@ -714,7 +714,7 @@
           "name": "SHA256SUMS.txt",
           "size": 192,
           "sha256": "573b80d92166b2ff75d93c22d3091f734679966ffddc16617e3352493c040077",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v1.43.0/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v1.43.0/SHA256SUMS.txt"
         }
       ]
     },
@@ -731,7 +731,7 @@
           "name": "PixoTap-0.1.0-linux-x86_64.tar.gz",
           "size": 8971341,
           "sha256": "cf6ff99ffb7ac951ddce4a448426453029c00f0ebadc539ebffa4a1537224f5d",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v0.1.0/PixoTap-0.1.0-linux-x86_64.tar.gz"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v0.1.0/PixoTap-0.1.0-linux-x86_64.tar.gz"
         },
         {
           "platform": "other",
@@ -740,7 +740,7 @@
           "name": "SHA256SUMS.txt",
           "size": 100,
           "sha256": "bffe844f4a9ffafad4086ce3cf3489ee8bc6572c4232bdd75d73632ea15bf783",
-          "url": "https://github.com/pixotap/pixo-tap-releases/releases/download/v0.1.0/SHA256SUMS.txt"
+          "url": "https://github.com/PixoTap/pixo-tap-releases/releases/download/v0.1.0/SHA256SUMS.txt"
         }
       ]
     }

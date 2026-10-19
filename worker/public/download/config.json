@@ -1,5 +1,5 @@
 {
-  "repo": "pixotap/pixo-tap-releases",
+  "repo": "PixoTap/pixo-tap-releases",
   "apiPath": "/v1/releases",
   "pageSize": 10
 }
