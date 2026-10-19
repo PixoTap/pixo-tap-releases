@@ -1,5 +1,5 @@
 // 由 tools/publish-edge.mjs 自动生成，请勿手工编辑。
-// d1_databases[0].database_id 为占位符（或维护者给出的 id）：D1 数据库、可选 KV（CACHE）与 Secret 在 Cloudflare 控制台配置。
+// D1 database_id 沿用源码配置，EDGE_D1_ID 可覆盖；缺省才用占位符。跨账号部署前必须创建该账号自己的 D1。
 // Secret 名称：PASSWORD_PEPPER、JWT_PRIVATE_KEY、CODE_HMAC_KEY、CSRF_KEY、LOG_HMAC_KEY、OUTBOX_KEY、SMTP_PASS（只在控制台或 wrangler secret put 中设置）。
 // 见主仓库 docs/CLOUDFLARE_SETUP.md。
 {
@@ -29,7 +29,7 @@
     {
       "binding": "DB",
       "database_name": "pixotap-db",
-      "database_id": "00000000-0000-0000-0000-000000000000"
+      "database_id": "a4c7d0c2-fd28-4457-8d83-326f1b54fd69"
     }
   ],
   "ratelimits": [
