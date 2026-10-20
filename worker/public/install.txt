@@ -80,7 +80,7 @@ ok() { printf '%s%s%s\n' "$C_GRN" "$*" "$C_OFF" >&2; }
 warn() { printf '%s提示：%s%s\n' "$C_YEL" "$*" "$C_OFF" >&2; }
 die() { printf '%s错误：%s%s\n' "$C_RED" "$*" "$C_OFF" >&2; exit 1; }
 
-# shellcheck disable=SC2329  # 通过 trap 调用
+# shellcheck disable=SC2317,SC2329  # 通过 EXIT trap 间接调用；兼容 runner 的旧版 ShellCheck
 cleanup() {
   if [ -n "$MOUNT_POINT" ] && [ -d "$MOUNT_POINT" ]; then
     hdiutil detach "$MOUNT_POINT" -quiet >/dev/null 2>&1 || hdiutil detach "$MOUNT_POINT" -force -quiet >/dev/null 2>&1 || true
@@ -89,6 +89,7 @@ cleanup() {
     rm -rf "$WORK_DIR"
   fi
 }
+trap cleanup EXIT
 
 # 用 heredoc 而不是读脚本自身：curl | bash 时 $0 不是脚本文件。
 usage() {
@@ -460,7 +461,7 @@ install_package() {
   desktop_template "$stage" >/dev/null || { rm -rf "$stage"; die "安装包结构不正确（缺少唯一的桌面入口模板），已中止。"; }
   printf '%s\n' "$PICKED_TAG" >"$stage/VERSION"
   # 原子替换：先挪开旧版本，失败则还原。
-  local old=""
+  local old="" previous_desktop="$DESKTOP_FILE"
   if [ -d "$APP_DIR" ]; then
     old="$INSTALL_ROOT/.old.$$"
     mv "$APP_DIR" "$old"
@@ -472,6 +473,8 @@ install_package() {
   fi
   [ -z "$old" ] || rm -rf "$old"
   integrate
+  # 应用 ID 更名后移除该安装记录原来生成的入口，避免应用菜单出现两个 PixoTap。
+  if [ "$previous_desktop" != "$DESKTOP_FILE" ]; then rm -f "$previous_desktop"; fi
 }
 
 distro_family() {
@@ -763,7 +766,6 @@ main_linux() {
 main() {
   parse_args "$@"
   detect_platform
-  trap cleanup EXIT
   if [ "$PLATFORM" = "macos" ]; then main_macos; else main_linux; fi
 }
 
