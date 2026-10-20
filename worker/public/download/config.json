@@ -1,5 +1,6 @@
 {
   "repo": "PixoTap/pixo-tap-releases",
   "apiPath": "/v1/releases",
-  "pageSize": 10
+  "pageSize": 10,
+  "cacheRevision": "4f53cda18c2baa0c"
 }
