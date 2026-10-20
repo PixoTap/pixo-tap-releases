@@ -36,7 +36,6 @@ set -euo pipefail
 
 DEFAULT_REPO="PixoTap/pixo-tap-releases"
 SITE_URL="https://pixotap.com"
-APP_ID="com.pixotap.app"
 MIN_GLIBC="2.39"
 MAC_APP_NAME="PixoTap.app"
 
@@ -48,7 +47,11 @@ DATA_HOME="${XDG_DATA_HOME:-${HOME:-}/.local/share}"
 BIN_DIR="${HOME:-}/.local/bin"
 INSTALL_ROOT="$DATA_HOME/pixotap"
 APP_DIR="$INSTALL_ROOT/app"
-DESKTOP_FILE="$DATA_HOME/applications/$APP_ID.desktop"
+DESKTOP_FILE="$DATA_HOME/applications/pixotap.desktop"
+# 已安装版本沿用包内的入口文件名，不在安装器里固定历史应用 ID。
+for desktop in "$APP_DIR"/share/*.desktop; do
+  if [ -f "$desktop" ]; then DESKTOP_FILE="$DATA_HOME/applications/${desktop##*/}"; break; fi
+done
 ICON_DIRS=("$DATA_HOME/icons/hicolor/128x128/apps" "$DATA_HOME/icons/hicolor/512x512/apps")
 USER_DATA_DIR="$DATA_HOME/PixoTap"
 
@@ -410,7 +413,10 @@ render_desktop() { # $1 模板 $2 输出
 integrate() { # 符号链接、桌面入口、图标（幂等）
   mkdir -p "$BIN_DIR"
   ln -sfn "$APP_DIR/bin/pixotap" "$BIN_DIR/pixotap"
-  render_desktop "$APP_DIR/share/$APP_ID.desktop" "$DESKTOP_FILE"
+  local template
+  template="$(desktop_template "$APP_DIR")" || die "安装包缺少唯一的桌面入口模板。"
+  DESKTOP_FILE="$DATA_HOME/applications/${template##*/}"
+  render_desktop "$template" "$DESKTOP_FILE"
   local size dir
   for dir in "${ICON_DIRS[@]}"; do
     size="$(basename "$(dirname "$dir")")"
@@ -427,6 +433,17 @@ integrate() { # 符号链接、桌面入口、图标（幂等）
   fi
 }
 
+desktop_template() { # $1 已解压安装包；兼容历史及后续应用 ID，拒绝缺失或歧义。
+  local template="" entry
+  for entry in "$1"/share/*.desktop; do
+    [ -f "$entry" ] || continue
+    [ -z "$template" ] || return 1
+    template="$entry"
+  done
+  [ -n "$template" ] || return 1
+  printf '%s\n' "$template"
+}
+
 install_package() {
   local tar_file="$WORK_DIR/$PICKED_TAR_NAME" sums_file="$WORK_DIR/SHA256SUMS.txt"
   info "下载 $PICKED_TAR_NAME ……"
@@ -440,7 +457,7 @@ install_package() {
   tar -xzf "$tar_file" -C "$stage" --strip-components=1 --no-same-owner --no-same-permissions
   if [ ! -x "$stage/bin/pixotap" ] && [ -f "$stage/bin/pixotap" ]; then chmod 755 "$stage/bin/pixotap"; fi
   [ -f "$stage/bin/pixotap" ] || { rm -rf "$stage"; die "安装包结构不正确（缺少 bin/pixotap），已中止。"; }
-  [ -f "$stage/share/$APP_ID.desktop" ] || { rm -rf "$stage"; die "安装包结构不正确（缺少桌面入口模板），已中止。"; }
+  desktop_template "$stage" >/dev/null || { rm -rf "$stage"; die "安装包结构不正确（缺少唯一的桌面入口模板），已中止。"; }
   printf '%s\n' "$PICKED_TAG" >"$stage/VERSION"
   # 原子替换：先挪开旧版本，失败则还原。
   local old=""
