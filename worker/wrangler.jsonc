@@ -87,6 +87,6 @@
     "SMTP_USER": "pixotap@yeah.net",
     "MAIL_FROM": "pixotap@yeah.net",
     "RELEASES_REPO": "PixoTap/pixo-tap-releases",
-    "RELEASES_CACHE_REVISION": "4f53cda18c2baa0c"
+    "RELEASES_CACHE_REVISION": "6558d2a089fce8cd"
   }
 }
