@@ -51,7 +51,7 @@
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-install.zh.svg" alt="示意图：点击下载安装包，或复制命令，完成安装" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="permissions">
-<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">2</span><h2>首次打开，按提示授权</h2></div><p>macOS 需要“屏幕录制”，建议同时开启“辅助功能”；相机可选。权限随时可在系统设置里关闭。</p></div>
+<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">2</span><h2>首次打开，按提示授权</h2></div><p>按需开启屏幕识别；macOS 需屏幕录制权限，辅助功能用于获取窗口信息。相机可选，Linux 权限取决于桌面环境。</p></div>
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-permissions.zh.svg" alt="示意图：系统授权窗口，屏幕录制与辅助功能已开启，相机为可选" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="start">
@@ -63,15 +63,16 @@
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-return.zh.svg" alt="示意图：工作台显示上次停在这里与这次先做，并有“继续工作”按钮" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="account">
-<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">5</span><h2>（可选）登录账号</h2></div><p>不登录也能使用。需要管理设备与数据时，在设置里点“登录”，在浏览器中完成授权。<a href="/account/">前往账号页</a></p></div>
+<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">5</span><h2>（可选）登录账号</h2></div><p>不登录也能使用。三端均可在设置里登录，并在浏览器中完成授权。跨设备同步默认关闭；需要时再设置同步口令或恢复密钥。<a href="/account/">前往账号页</a></p></div>
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-account.zh.svg" alt="示意图：浏览器里的账号登录页，填写邮箱与密码" width="560" height="340" loading="lazy"></figure>
 </li>
 </ol>
 
 <h2 id="faq" class="sec">常见问题</h2>
-<details class="faq"><summary>我需要账号吗？</summary><p>不需要。账号是可选的，只支持邮箱加密码登录，用于管理资料、已授权设备、同意设置、数据导出与注销。</p></details>
+<details class="faq"><summary>我需要账号吗？</summary><p>不需要。账号是可选的，只支持邮箱加密码登录，可管理资料、已授权设备、同意设置、数据导出与注销。登录不会自动开启同步。</p></details>
 <details class="faq"><summary>数据保存在哪里？会上传吗？</summary><p>默认只保存在你的设备上：macOS 在 <code>~/Library/Application Support/PixoTap</code>，Windows 在 <code>%LocalAppData%\PixoTap</code>，Linux 在 <code>~/.local/share/PixoTap</code>。截图原图、照片、原文件内容和剪贴板正文不会上传。详见<a href="/privacy/">隐私政策</a>。</p></details>
-<details class="faq"><summary>AI 功能需要什么？</summary><p>需要你自己的 DeepSeek API 密钥。没有密钥或断网时，仍会生成本地交接摘要，联网后继续分析。配置密钥后还可使用“聊一聊”多会话智能伙伴 Agent（支持独立对话小窗口与工作台展开双栏会话列表、自动注入项目恢复摘要与暂放区文件清单，并内置 <code>read</code> / <code>grep</code> / <code>search</code> / <code>web_search</code> / <code>edit</code> / <code>write</code> / <code>shell</code> 工具按需本机检索与执行）。</p></details>
+<details class="faq"><summary>AI 伙伴能做什么？</summary><p>使用你自己的 DeepSeek API 密钥，围绕项目开启多个对话，也可独立聊天。伙伴能结合恢复摘要与暂放区文件清单，按需检索材料、编辑文件或执行命令。没有密钥或离线时，仍可记录工作并生成本地交接摘要。</p></details>
+<details class="faq"><summary>换一台电脑，怎么接着做？</summary><p>在两台设备上登录同一账号，主动开启同步，并使用相同的同步口令或恢复密钥。项目、恢复笔记、对话与偏好设置会在设备端加密后同步；截图、照片与原始工作文件不随同步传输。</p></details>
 <details class="faq"><summary>怎么卸载？</summary><p>macOS：把应用拖进废纸篓。Windows：在“设置 &gt; 应用”中卸载。Linux：运行高级里的卸载命令。卸载不会删除你的数据目录。</p></details>
 <details class="faq"><summary>怎么停止记录？</summary><p>点“记下断点”即可；隐藏入口或退出程序也会停止记录。</p></details>
 
@@ -106,7 +107,7 @@ Get-FileHash -Algorithm SHA256 &lt;文件&gt;      # Windows（PowerShell）</co
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-install.en.svg" alt="Illustration: download the installer or copy the command to install" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="permissions">
-<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">2</span><h2>Open it and grant access</h2></div><p>macOS needs Screen Recording and works best with Accessibility; the camera is optional. You can turn any permission off in system settings at any time.</p></div>
+<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">2</span><h2>Open it and grant access</h2></div><p>Enable screen recognition when needed. macOS requires Screen Recording; Accessibility provides window information. Camera access is optional; Linux permissions depend on your desktop environment.</p></div>
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-permissions.en.svg" alt="Illustration: the system permission window with screen recording and accessibility on, camera optional" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="start">
@@ -118,15 +119,16 @@ Get-FileHash -Algorithm SHA256 &lt;文件&gt;      # Windows（PowerShell）</co
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-return.en.svg" alt="Illustration: the workbench showing where you left off, what is next, and a Continue button" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="account">
-<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">5</span><h2>(Optional) Sign in</h2></div><p>Everything works without an account. To manage devices and data, choose Sign in in Settings and finish authorization in your browser. <a href="/account/">Go to the account page</a></p></div>
+<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">5</span><h2>(Optional) Sign in</h2></div><p>Use the app locally without an account. All three desktop apps support sign-in from Settings, with approval in your browser. Cross-device sync is off by default; enable it with a sync passphrase or recovery key. <a href="/account/">Go to the account page</a></p></div>
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-account.en.svg" alt="Illustration: the account sign-in page in a browser with email and password fields" width="560" height="340" loading="lazy"></figure>
 </li>
 </ol>
 
 <h2 id="faq" class="sec">FAQ</h2>
-<details class="faq"><summary>Do I need an account?</summary><p>No. Accounts are optional, use email and password only, and are for managing your profile, authorized devices, consents, data export and deletion.</p></details>
+<details class="faq"><summary>Do I need an account?</summary><p>No. Accounts are optional, use email and password only, and let you manage your profile, authorized devices, consents, data export and deletion. Signing in does not enable sync automatically.</p></details>
 <details class="faq"><summary>Where is my data stored? Is it uploaded?</summary><p>On your device by default: <code>~/Library/Application Support/PixoTap</code> on macOS, <code>%LocalAppData%\PixoTap</code> on Windows, <code>~/.local/share/PixoTap</code> on Linux. Original screenshots, photos, file contents and clipboard text are never uploaded. See the <a href="/privacy/">Privacy Policy</a>.</p></details>
-<details class="faq"><summary>What does AI need?</summary><p>Your own DeepSeek API key. Without a key, or offline, a local hand-off summary is still produced and analysis continues once you are online. With a key configured, you can also use the multi-session AI companion Agent in a standalone compact window or expanded dual-column workbench view (automatically syncing project summaries and shelf file metadata, with built-in <code>read</code> / <code>grep</code> / <code>search</code> / <code>web_search</code> / <code>edit</code> / <code>write</code> / <code>shell</code> tools).</p></details>
+<details class="faq"><summary>What can the AI companion do?</summary><p>With your own DeepSeek API key, keep multiple project conversations or chat independently. Your companion can use recovery summaries and shelf file lists to find materials, edit files or run commands as needed. Without a key or while offline, you can still record work and generate local hand-off notes.</p></details>
+<details class="faq"><summary>How do I continue on another computer?</summary><p>Sign in to the same account on both devices, enable sync, and use the same sync passphrase or recovery key. Projects, recovery notes, conversations and preferences are encrypted on your device before syncing. Screenshots, photos and original work files are excluded.</p></details>
 <details class="faq"><summary>How do I uninstall?</summary><p>macOS: drag the app to the Trash. Windows: remove it in Settings &gt; Apps. Linux: run the uninstall command under Advanced. Your data folder is kept.</p></details>
 <details class="faq"><summary>How do I stop recording?</summary><p>Press Mark checkpoint; hiding the entry point or quitting the app also stops recording.</p></details>
 

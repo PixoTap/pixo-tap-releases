@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="PIXO TAP 是面向多项长期任务的工作流概念：应对任务突增、应对时间变动、应对项目记忆丢失，把变化重新收束成清楚的下一步。" />
+  <meta name="description" content="PIXO TAP 是本地优先的桌面项目伙伴：记录工作线索、生成恢复笔记，用智能对话接着推进。支持 macOS、Windows、Linux，账号与加密同步可选。" />
   <meta name="font-credit" content="Chinese typeface: MiSans by Xiaomi" />
   <link rel="icon" href="pixo-tap-assets/brand/favicon.png" type="image/png" />
   <link rel="apple-touch-icon" href="pixo-tap-assets/brand/apple-touch-icon.png" />
@@ -13,12 +13,12 @@
   <meta property="og:locale" content="zh_CN" />
   <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:title" content="PIXO TAP｜把多线程，变成下一步" />
-  <meta property="og:description" content="PIXO TAP 是面向多项长期任务的工作流概念：应对任务突增、应对时间变动、应对项目记忆丢失，把变化重新收束成清楚的下一步。" />
+  <meta property="og:description" content="PIXO TAP 是本地优先的桌面项目伙伴：记录工作线索、生成恢复笔记，用智能对话接着推进。支持 macOS、Windows、Linux，账号与加密同步可选。" />
   <meta property="og:url" content="https://pixotap.com/" />
   <meta property="og:image" content="https://pixotap.com/pixo-tap-assets/brand/og-cover.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="PIXO TAP｜把多线程，变成下一步" />
-  <meta name="twitter:description" content="PIXO TAP 是面向多项长期任务的工作流概念：应对任务突增、应对时间变动、应对项目记忆丢失，把变化重新收束成清楚的下一步。" />
+  <meta name="twitter:description" content="PIXO TAP 是本地优先的桌面项目伙伴：记录工作线索、生成恢复笔记，用智能对话接着推进。支持 macOS、Windows、Linux，账号与加密同步可选。" />
   <meta name="twitter:image" content="https://pixotap.com/pixo-tap-assets/brand/og-cover.jpg" />
   <title>PIXO TAP｜把多线程，变成下一步</title>
   <style>
@@ -1537,6 +1537,12 @@
   .px-header[data-open] .px-nav { display: flex; }
   .px-nav a { padding: 12px 16px; font-size: 1rem; }
 }
+@media (max-width: 380px) {
+  .px-header-in { gap: 8px; }
+  .px-brand img { width: 112px; }
+  .px-lang select { padding-inline: 8px; }
+  .px-menu-btn { padding-inline: 10px; }
+}
 .px-footer { margin-top: 72px; padding: 40px 0 44px; color: rgba(251, 248, 237, 0.74); background: var(--px-brand-ink); font-size: var(--px-font-size-body); line-height: 1.65; }
 .px-footer-in { margin: 0 auto; padding: 0 clamp(16px, 4vw, 48px); display: flex; flex-wrap: wrap; gap: 24px 56px; justify-content: space-between; }
 .px-footer-brand { max-width: 34em; }
@@ -1588,13 +1594,13 @@
             <span>把多线程，</span>
             <em><span>变成下一步</span></em>
           </h1>
-          <p>拆开新任务，排好新顺序，接回原进度，让习惯线性工作的人，也能持续推进多项长期任务。</p>
+          <p>记下工作现场，留住项目进度。回来时，和你的桌面伙伴一起接着做。</p>
           <div class="hero-actions">
             <a class="button primary" href="#solution">选择你的 PIXO TAP <span aria-hidden="true">→</span></a>
             <a class="button cta-download" href="/download/" data-site-path="/download/">下载 PIXO TAP</a>
             <a class="button secondary" href="#how">看多线程怎么变成下一步</a>
           </div>
-          <div class="microcopy">交互概念演示 · 不读取你的设备</div>
+          <div class="microcopy">macOS · Windows · Linux｜本地优先，账号可选</div>
         </div>
         </div>
       </div>
@@ -1628,9 +1634,9 @@
       <div class="section-shell">
         <div class="split-heading how-heading reveal">
           <div>
-            <p class="eyebrow">HOW IT WORKS · 拆开 → 排好 → 接回</p>
-            <h2 class="section-title">把变化，重新落到一个清楚的下一步。</h2>
-            <p class="how-lead">PIXO TAP 把多线程推进拆成三个动作：应对任务突增，先拆开；应对时间变动，再排好；应对项目记忆丢失，最后接回原进度。</p>
+            <p class="eyebrow">HOW IT WORKS · 记录 → 接回 → 继续</p>
+            <h2 class="section-title">记下断点，接着做。</h2>
+            <p class="how-lead">从一次工作到下一次回来，进度、材料和思路都围绕同一个项目。</p>
           </div>
           <div class="motion-bridge" role="img" aria-label="五位 PIXO TAP 桌宠集合动画">
             <video id="bridgeVideo" autoplay muted loop playsinline preload="metadata">
@@ -1641,18 +1647,18 @@
         <div class="how-grid reveal">
             <article class="step-card">
               <span class="num">01</span>
-            <div class="step-body"><h3>应对任务突增：拆开新任务</h3><p>当新任务突然加入，把它拆成可执行小步，先看清新增工作与原计划的关系。当前为交互方案。</p></div>
-            <div class="step-demo"><small>CONCEPT DATA · NEW TASK</small><div class="demo-row"><span class="demo-dot"></span><span>Pixo-Tap / 补充用户验证</span></div><div class="demo-action">拆成 3 个下一步</div></div>
+            <div class="step-body"><h3>开始时，留下工作线索</h3><p>选择项目并开始会话，按需开启屏幕识别与文件活动记录。记录由你开始，也可随时停止。</p></div>
+            <div class="step-demo"><small>DEMO · WORK SESSION</small><div class="demo-row"><span class="demo-dot"></span><span>Pixo-Tap / 补充用户验证</span></div><div class="demo-action">选择项目 · 开始记录</div></div>
             </article>
           <article class="step-card is-key">
             <span class="num">02</span>
-            <div class="step-body"><h3>应对时间变动：排好新顺序</h3><p>当可用时间、截止节点或条件改变，重新安排先后，让现在该做什么保持清楚。当前为交互方案。</p></div>
-            <div class="step-demo"><small>CONCEPT DATA · NEW ORDER</small><div class="demo-status">应对时间变动 · 交互方案</div><div class="recovery-card"><div class="recovery-row"><strong>原计划</strong><span>周五完成竞品分析</span></div><div class="recovery-row"><strong>应对时间变动</strong><span>截止时间提前到周三</span></div><div class="recovery-row"><strong>重新排序</strong><span>先完成关键对比，再补充细节</span></div><div class="recovery-row"><strong>现在先做</strong><span>整理竞品分析的 3 条关键证据</span></div></div></div>
+            <div class="step-body"><h3>回来时，接上原来的进度</h3><p>恢复笔记整理本次完成、推进到这里、当前卡点和下次先做，不必重新翻找工作现场。</p></div>
+            <div class="step-demo"><small>DEMO · RECOVERY NOTE</small><div class="demo-status">项目恢复笔记</div><div class="recovery-card"><div class="recovery-row"><strong>本次完成</strong><span>完成 5 个竞品对比</span></div><div class="recovery-row"><strong>推进到这里</strong><span>关键差异已整理</span></div><div class="recovery-row"><strong>当前卡点</strong><span>还缺一条来源证据</span></div><div class="recovery-row"><strong>下次先做</strong><span>补齐来源，再写结论</span></div></div></div>
           </article>
           <article class="step-card">
             <span class="num">03</span>
-            <div class="step-body"><h3>应对项目记忆丢失：接回原进度</h3><p>切回原任务时，从已授权的项目状态中找回进度、卡点、材料位置与下一步。当前为可运行原型。</p></div>
-            <div class="step-demo"><small>CURRENT PROTOTYPE · RETURN</small><div class="demo-row"><span class="demo-dot"></span><span>接回进度：已完成 5 个竞品对比</span></div><div class="demo-action">打开项目 · 继续下一步</div></div>
+            <div class="step-body"><h3>需要时，和伙伴一起推进</h3><p>围绕项目分开聊，也能开启独立对话。配置自己的 AI 密钥后，可按需查找材料、梳理思路与执行操作。</p></div>
+            <div class="step-demo"><small>DEMO · AI COMPANION</small><div class="demo-row"><span class="demo-dot"></span><span>项目对话 · 接着讨论下一步</span></div><div class="demo-action">查看材料 · 继续对话</div></div>
           </article>
         </div>
       </div>
@@ -1661,13 +1667,13 @@
     <section class="product-overview" id="product-overview" aria-labelledby="product-overview-heading" data-active-step="0">
       <div class="product-overview-sticky">
         <div class="product-overview-heading">
-          <p class="eyebrow">PRODUCT CONCEPT · 提升多线程效率</p>
+          <p class="eyebrow">YOUR WORKSPACE · 让进度留在身边</p>
           <div class="product-heading-copy">
-            <h2 id="product-overview-heading">拆开新任务，排好新顺序，接回原进度，提升多线程效率。</h2>
+            <h2 id="product-overview-heading">一个项目，一份能接着做的记忆。</h2>
             <ul class="product-boundary">
-              <li>本页为交互概念演示，不会读取你的设备。</li>
-              <li>应对任务突增、应对时间变动目前为交互方案；当前 Mac 原型先验证应对项目记忆丢失，只在你明确选择项目并授权后留下线索。</li>
-              <li>按当前产品方案，实体桌宠仅作为可选的开始/结束入口；没有硬件时，Mac 软件仍可独立使用。</li>
+              <li>三端桌面软件已提供下载；本页演示不会读取你的设备。</li>
+              <li>记录、恢复笔记与智能伙伴围绕项目展开；屏幕识别和相机仅在你开启并授权后使用。</li>
+              <li>实体桌宠仍是概念展示；macOS、Windows、Linux 软件均可独立使用。</li>
             </ul>
           </div>
         </div>
@@ -1716,7 +1722,7 @@
         </article>
 
         <div class="product-progress" aria-hidden="true"><span></span></div>
-        <p class="product-scroll-hint">继续滚动 · 看应对项目记忆丢失原型</p>
+        <p class="product-scroll-hint">继续滚动 · 看项目记忆演示</p>
       </div>
     </section>
 
@@ -1785,7 +1791,7 @@
           <div id="formFields">
             <div class="field"><label for="name">怎么称呼你？（选填）</label><input id="name" name="name" type="text" autocomplete="name" placeholder="你的名字或昵称" /></div>
             <div class="field"><label for="interrupt">你最想接回哪类任务？</label><select id="interrupt" name="interrupt" required><option value="">请选择</option><option>课程作业或复习</option><option>科研或论文</option><option>创作或作品集</option><option>求职或实习准备</option><option>持续推进的个人项目</option><option>其他</option></select></div>
-            <div class="field"><label for="blocker">回来时，你最想先看到什么？</label><select id="blocker" name="blocker" required><option value="">请选择</option><option>本次完成了什么</option><option>项目推进到哪里</option><option>当前卡点是什么</option><option>现在先做哪一步</option><option>暂时说不清</option></select></div>
+            <div class="field"><label for="blocker">回来时，你最想先看到什么？</label><select id="blocker" name="blocker" required><option value="">请选择</option><option>本次完成了什么</option><option>项目推进到哪里</option><option>当前卡点是什么</option><option>下次先做哪一步</option><option>暂时说不清</option></select></div>
             <div class="field"><label for="memory">希望 PIXO TAP 替你留住哪条线索？</label><textarea id="memory" name="memory" placeholder="例如：做到第 8 页；这版为什么这样改；回来先补 3 个数据……"></textarea></div>
             <button class="button primary" type="submit">预览我的接回设置</button>
           </div>
@@ -1811,12 +1817,12 @@
       <div class="closing-grid">
         <article class="closing-card">
           <h3>下载</h3>
-          <p>选择你的系统，下载安装包即可开始；Linux 与 macOS 也可以用一行命令安装。</p>
+          <p>macOS、Windows、Linux 均已提供安装包。选好系统，就能开始。</p>
           <a class="button cta-download" href="/download/" data-site-path="/download/">前往下载页</a>
         </article>
         <article class="closing-card">
           <h3>账号</h3>
-          <p>账号是可选的，不登录也能使用客户端。登录只支持邮箱加密码；Linux、Android、Windows 客户端可在设置里登录，macOS 暂未接入。</p>
+          <p>不登录也能本地使用。三端均可登录；跨设备同步默认关闭，开启时设置同步口令或恢复密钥。</p>
           <a class="button secondary" href="/account/" data-site-path="/account/">登录 / 账号</a>
         </article>
         <article class="closing-card">
@@ -1849,6 +1855,7 @@
   <script>
     (() => {
       const translations = Object.freeze({
+        "推进到这里": "Progress so far",
         "跳到主要内容": "Skip to main content",
         "下载": "Download",
         "使用说明": "Docs",
@@ -1863,15 +1870,15 @@
         "这只是一个演示，不会创建账号。想真正使用：": "This is only a demo and does not create an account. To really use PIXO TAP:",
         "现在可以做什么": "WHAT YOU CAN DO NOW",
         "从下载开始，或先读使用说明。": "Start with a download, or read the docs first.",
-        "选择你的系统，下载安装包即可开始；Linux 与 macOS 也可以用一行命令安装。": "Pick your system and download the installer; Linux and macOS can also install with one command.",
+        "macOS、Windows、Linux 均已提供安装包。选好系统，就能开始。": "Installers are available for macOS, Windows and Linux. Pick your system and get started.",
         "前往下载页": "Go to the download page",
-        "账号是可选的，不登录也能使用客户端。登录只支持邮箱加密码；Linux、Android、Windows 客户端可在设置里登录，macOS 暂未接入。": "Accounts are optional; the client works without signing in. Sign-in is email and password only; the Linux, Android and Windows clients can sign in from Settings, while macOS does not support it yet.",
+        "不登录也能本地使用。三端均可登录；跨设备同步默认关闭，开启时设置同步口令或恢复密钥。": "Use the app locally without an account. All three desktop apps support sign-in; cross-device sync stays off until you enable it with a sync passphrase or recovery key.",
         "安装步骤、需要的权限、数据存放位置与隐私承诺。": "Installation steps, the permissions needed, where data is stored and our privacy commitments.",
         "阅读使用说明": "Read the docs",
         "本页的交互演示不读取你的设备。": "The interactive demo on this page does not read your device.",
         "PIXO TAP：把多线程的任务，收束成清楚的下一步。": "PIXO TAP: bring many threads of work back to one clear next step.",
         "中文字体：MiSans（小米）。页面素材与第三方库保留各自权利归属。": "Chinese typeface: MiSans (Xiaomi). Page assets and third-party libraries remain with their respective rights holders.",
-        "交互概念演示 · 不读取你的设备": "Interactive demo · Does not read your device",
+        "macOS · Windows · Linux｜本地优先，账号可选": "macOS · Windows · Linux | Local first, account optional",
         "产品": "Product",
         "为什么多线程变难": "Why multi-project work stalls",
         "怎么变成下一步": "How to find the next step",
@@ -1882,7 +1889,7 @@
         "给同时推进多项长期任务的你": "For people moving multiple long-term tasks forward",
         "把多线程，": "Turn multiple workstreams",
         "变成下一步": "into one clear next step",
-        "拆开新任务，排好新顺序，接回原进度，让习惯线性工作的人，也能持续推进多项长期任务。": "Break down new tasks, reset priorities when schedules change, and resume where you left off, so people who work linearly can keep multiple long-term projects moving.",
+        "记下工作现场，留住项目进度。回来时，和你的桌面伙伴一起接着做。": "Keep your work context and project progress close. Come back and carry on with your desktop companion.",
         "选择你的 PIXO TAP": "Choose your PIXO TAP",
         "看多线程怎么变成下一步": "See how multiple workstreams become one clear next step",
         "多线程失速的三个瞬间": "Three moments that derail multi-project work",
@@ -1895,32 +1902,32 @@
         "可用时间或截止节点改变时，重新排好任务顺序。": "When available time or deadlines change, reorder the work.",
         "应对项目记忆丢失": "Recover lost project memory",
         "切回原任务时，接回进度、材料和下一步。": "When you switch back, recover the progress, materials, and next step you left behind.",
-        "HOW IT WORKS · 拆开 → 排好 → 接回": "HOW IT WORKS · BREAK DOWN → REORDER → RECONNECT",
-        "把变化，重新落到一个清楚的下一步。": "Bring change back to one clear next step.",
-        "PIXO TAP 把多线程推进拆成三个动作：应对任务突增，先拆开；应对时间变动，再排好；应对项目记忆丢失，最后接回原进度。": "PIXO TAP frames multi-project progress around three actions: handle task surges by breaking new work down, handle schedule changes by reordering priorities, and recover lost project memory by resuming where you left off.",
-        "应对任务突增：拆开新任务": "Handle task surges: break down new tasks",
-        "当新任务突然加入，把它拆成可执行小步，先看清新增工作与原计划的关系。当前为交互方案。": "When a new task arrives, break it into actionable steps and clarify how it affects the original plan. This is currently an interaction concept.",
+        "HOW IT WORKS · 记录 → 接回 → 继续": "HOW IT WORKS · RECORD → RESUME → CONTINUE",
+        "记下断点，接着做。": "Leave a checkpoint. Carry on.",
+        "从一次工作到下一次回来，进度、材料和思路都围绕同一个项目。": "From one work session to the next, keep progress, materials and ideas together in one project.",
+        "开始时，留下工作线索": "Start with your work context",
+        "选择项目并开始会话，按需开启屏幕识别与文件活动记录。记录由你开始，也可随时停止。": "Choose a project and start a session. Enable screen recognition and file activity as needed; start and stop recording yourself.",
         "Pixo-Tap / 补充用户验证": "Pixo-Tap / additional user validation",
-        "拆成 3 个下一步": "Break into three next steps",
-        "应对时间变动：排好新顺序": "Handle schedule changes: set a new order",
-        "当可用时间、截止节点或条件改变，重新安排先后，让现在该做什么保持清楚。当前为交互方案。": "When available time, deadlines, or conditions change, reorder the work so what to do now stays clear. This is currently an interaction concept.",
-        "应对时间变动 · 交互方案": "HANDLE SCHEDULE CHANGES · INTERACTION CONCEPT",
-        "原计划": "Original plan",
-        "周五完成竞品分析": "Finish competitor analysis by Friday",
-        "截止时间提前到周三": "Deadline moved forward to Wednesday",
-        "重新排序": "New order",
-        "先完成关键对比，再补充细节": "Finish the key comparisons first, then add the details",
-        "现在先做": "Do this now",
-        "整理竞品分析的 3 条关键证据": "Collect three key pieces of evidence for the competitor analysis",
-        "应对项目记忆丢失：接回原进度": "Recover lost project memory: resume your progress",
-        "切回原任务时，从已授权的项目状态中找回进度、卡点、材料位置与下一步。当前为可运行原型。": "When you return to the original task, recover progress, blockers, material locations, and the next step from the project state you authorized. This is the current working prototype.",
-        "接回进度：已完成 5 个竞品对比": "Progress restored: five competitor comparisons completed",
-        "打开项目 · 继续下一步": "Open project · Continue the next step",
-        "PRODUCT CONCEPT · 提升多线程效率": "PRODUCT CONCEPT · IMPROVE MULTI-PROJECT FLOW",
-        "拆开新任务，排好新顺序，接回原进度，提升多线程效率。": "Break down new tasks, set a new order, and resume your progress to improve multi-project efficiency.",
-        "本页为交互概念演示，不会读取你的设备。": "This page is an interactive concept demo and does not read your device.",
-        "应对任务突增、应对时间变动目前为交互方案；当前 Mac 原型先验证应对项目记忆丢失，只在你明确选择项目并授权后留下线索。": "Handling task surges and schedule changes are currently interaction concepts. The Mac prototype currently focuses on recovering lost project memory and keeps clues only after you choose and authorize a project.",
-        "按当前产品方案，实体桌宠仅作为可选的开始/结束入口；没有硬件时，Mac 软件仍可独立使用。": "In the current product concept, the desk companion is an optional way to start and stop a session; the Mac app works independently without it.",
+        "选择项目 · 开始记录": "Choose a project \u00b7 Start recording",
+        "回来时，接上原来的进度": "Return to where you left off",
+        "恢复笔记整理本次完成、推进到这里、当前卡点和下次先做，不必重新翻找工作现场。": "Recovery notes capture what you finished, where you stopped, what is blocked and what to do next.",
+        "项目恢复笔记": "Project recovery notes",
+        "本次完成": "Completed",
+        "完成 5 个竞品对比": "Compared five competing products",
+        "关键差异已整理": "Key differences organised",
+        "当前卡点": "Current blocker",
+        "还缺一条来源证据": "One source is still missing",
+        "下次先做": "Next step",
+        "补齐来源，再写结论": "Find the source, then write the conclusion",
+        "需要时，和伙伴一起推进": "Keep moving with your companion",
+        "围绕项目分开聊，也能开启独立对话。配置自己的 AI 密钥后，可按需查找材料、梳理思路与执行操作。": "Keep separate project conversations or start an independent chat. With your own AI key, find materials, explore ideas and take action as needed.",
+        "项目对话 · 接着讨论下一步": "Project chat \u00b7 Discuss the next step",
+        "查看材料 · 继续对话": "Find materials \u00b7 Continue the conversation",
+        "YOUR WORKSPACE · 让进度留在身边": "YOUR WORKSPACE · KEEP YOUR PROGRESS CLOSE",
+        "一个项目，一份能接着做的记忆。": "A project memory you can pick up and use.",
+        "三端桌面软件已提供下载；本页演示不会读取你的设备。": "Desktop apps are available for all three systems; this website demo does not read your device.",
+        "记录、恢复笔记与智能伙伴围绕项目展开；屏幕识别和相机仅在你开启并授权后使用。": "Recording, recovery notes and the AI companion stay with your project. Screen recognition and camera access require your choice and permission.",
+        "实体桌宠仍是概念展示；macOS、Windows、Linux 软件均可独立使用。": "The physical companion is a concept display; the macOS, Windows and Linux apps work independently.",
         "由你开始，也由你结束": "You start it, and you stop it",
         "01 · 应对项目记忆丢失 · START / STOP": "01 · RECOVER PROJECT MEMORY · START / STOP",
         "选择一个项目后开始记录，切走前主动结束；只保存你授权范围内、用于接回原进度的线索。": "Start recording after choosing a project, then stop before you switch; only authorized clues needed to reconnect to your original progress are saved.",
@@ -1930,7 +1937,7 @@
         "需要时，再找材料": "Find materials when you need them",
         "03 · 应对项目记忆丢失 · PROJECT SEARCH": "03 · RECOVER PROJECT MEMORY · PROJECT SEARCH",
         "总结负责回答“做到哪里”；需要材料时，独立检索再显示来源与位置。": "The summary answers where you stopped; separate search shows the source and location of a file or reference when you need it.",
-        "继续滚动 · 看应对项目记忆丢失原型": "KEEP SCROLLING · SEE THE PROJECT-MEMORY PROTOTYPE",
+        "继续滚动 · 看项目记忆演示": "KEEP SCROLLING · SEE PROJECT MEMORY IN ACTION",
         "MEET YOUR PIXO TAP · 应对项目记忆丢失 · 五种接回风格": "MEET YOUR PIXO TAP · RECOVER PROJECT MEMORY · FIVE RETURN STYLES",
         "向下滚动 ·": "Scroll down ·",
         "Pixo-Tap / 竞品分析": "Pixo-Tap / competitor analysis",
@@ -1972,7 +1979,7 @@
         "本次完成了什么": "What you completed this session",
         "项目推进到哪里": "Where the project stands",
         "当前卡点是什么": "What is blocking the project",
-        "现在先做哪一步": "The next step to take",
+        "下次先做哪一步": "The next step to take",
         "暂时说不清": "I'm not sure yet",
         "希望 PIXO TAP 替你留住哪条线索？": "What should PIXO TAP keep for your return?",
         "预览我的接回设置": "Preview my return setup",
@@ -2067,8 +2074,8 @@
           : "PIXO TAP｜把多线程，变成下一步";
         const description = document.querySelector('meta[name="description"]');
         if (description) description.content = currentLanguage === "en"
-          ? "PIXO TAP is a multi-project workflow concept for handling task surges, schedule changes, and lost project memory, bringing change back to one clear next step."
-          : "PIXO TAP 是面向多项长期任务的工作流概念：应对任务突增、应对时间变动、应对项目记忆丢失，把变化重新收束成清楚的下一步。";
+          ? "PIXO TAP is a local-first desktop project companion for work context, recovery notes and AI conversations. Available on macOS, Windows and Linux, with optional sign-in and encrypted sync."
+          : "PIXO TAP 是本地优先的桌面项目伙伴：记录工作线索、生成恢复笔记，用智能对话接着推进。支持 macOS、Windows、Linux，账号与加密同步可选。";
         languageSelect.value = currentLanguage;
         if (persist) {
           try { localStorage.setItem("pixo-language", currentLanguage); } catch (error) {}
