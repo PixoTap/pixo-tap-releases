@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 340" width="560" height="340" font-family="'MiSans','Noto Sans CJK SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif" role="img" aria-label="示意图：灵动岛里开始并保存断点">
 <title>示意图：灵动岛里开始并保存断点</title>
-<rect width="560" height="340" rx="24" fill="#EAF3FA"/>
+<rect width="560" height="340" rx="24" fill="#E6F0F8"/>
 <circle cx="70" cy="40" r="90" fill="#A9D4F6" opacity="0.28"/><circle cx="590" cy="320" r="110" fill="#F6DF77" opacity="0.30"/><circle cx="600" cy="50" r="60" fill="#FF777B" opacity="0.14"/><circle cx="40" cy="330" r="70" fill="#A8EEA2" opacity="0.22"/>
 
-<rect x="36" y="36" width="488" height="268" rx="40" fill="#000000" />
-<rect x="62" y="56" width="104" height="40" rx="10" fill="#333333" /><text x="114" y="84" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">专注</text>
-<text x="214" y="84" font-size="22" font-weight="400" fill="#999999" text-anchor="middle">项目</text>
-<circle cx="494" cy="76" r="8" fill="#FF6B73"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
-<text x="280" y="176" font-size="88" font-weight="300" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">24:36</text>
-<rect x="62" y="196" width="436" height="6" rx="3" fill="#2E2E2E" /><rect x="62" y="196" width="290" height="6" rx="3" fill="#ADD6F7" ><animate attributeName="width" values="290;330;290" dur="6s" repeatCount="indefinite"/></rect>
-<rect x="62" y="220" width="210" height="52" rx="14" fill="#262626" /><text x="167" y="255" font-size="23" font-weight="400" fill="#DEDEDE" text-anchor="middle">记下断点</text>
-<rect x="288" y="220" width="210" height="52" rx="14" fill="#D42E42" /><text x="393" y="255" font-size="23" font-weight="700" fill="#FFFFFF" text-anchor="middle">继续专注</text>
-<text x="62" y="292" font-size="20" font-weight="400" fill="#99C9F2" text-anchor="start">上次停在这里</text><text x="192" y="292" font-size="20" font-weight="400" fill="#DEDEDE" text-anchor="start">写完方案第二节</text>
+<rect x="36" y="28" width="488" height="284" rx="30" fill="#000000" />
+<rect x="62" y="48" width="104" height="40" rx="10" fill="#333333" /><text x="114" y="76" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">工作</text>
+<text x="214" y="76" font-size="24" font-weight="400" fill="#999999" text-anchor="middle">专注</text>
+<text x="62" y="132" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="start">竞赛方案</text>
+<rect x="62" y="152" width="436" height="66" rx="13" fill="#1A1A1A" />
+<text x="80" y="178" font-size="21" font-weight="400" fill="#F5D46B" text-anchor="start">这次先做</text>
+<text x="80" y="204" font-size="24" font-weight="400" fill="#DEDEDE" text-anchor="start">补齐来源，继续写结论</text>
+<rect x="62" y="238" width="210" height="52" rx="14" fill="#D42E42" /><text x="167" y="272" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">开始记录</text>
+<rect x="288" y="238" width="210" height="52" rx="14" fill="#262626" /><text x="393" y="272" font-size="24" font-weight="400" fill="#DEDEDE" text-anchor="middle">保存断点</text>
 
 </svg>

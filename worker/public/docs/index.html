@@ -55,8 +55,8 @@
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-permissions.zh.svg" alt="示意图：系统授权窗口，屏幕录制与辅助功能已开启，相机为可选" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="start">
-<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">3</span><h2>开始工作，离开前记下断点</h2></div><p>在灵动岛（或工作台）选好项目，点“开始”。要离开时点“记下断点”。只有你点击开始后才会记录。</p></div>
-<figure class="step-fig"><img class="step-art" src="/docs-art/step-start.zh.svg" alt="示意图：灵动岛里的计时，以及“记下断点”和“继续专注”按钮" width="560" height="340" loading="lazy"></figure>
+<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">3</span><h2>开始工作，离开前记下断点</h2></div><p>在灵动岛或工作台选好项目，点“开始记录”。要离开时点“保存断点”。只有你点击开始后才会记录。</p></div>
+<figure class="step-fig"><img class="step-art" src="/docs-art/step-start.zh.svg" alt="示意图：灵动岛的工作页，以及“开始记录”和“保存断点”按钮" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="return">
 <div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">4</span><h2>回来时，一眼接回进度</h2></div><p>打开同一个项目，会看到上次停在哪里、这次先做什么。</p></div>
@@ -70,11 +70,12 @@
 
 <h2 id="faq" class="sec">常见问题</h2>
 <details class="faq"><summary>我需要账号吗？</summary><p>不需要。账号是可选的，只支持邮箱加密码登录，可管理资料、已授权设备、同意设置、数据导出与注销。登录不会自动开启同步。</p></details>
-<details class="faq"><summary>数据保存在哪里？会上传吗？</summary><p>默认只保存在你的设备上：macOS 在 <code>~/Library/Application Support/PixoTap</code>，Windows 在 <code>%LocalAppData%\PixoTap</code>，Linux 在 <code>~/.local/share/PixoTap</code>。截图原图、照片、原文件内容和剪贴板正文不会上传。详见<a href="/privacy/">隐私政策</a>。</p></details>
-<details class="faq"><summary>AI 伙伴能做什么？</summary><p>使用你自己的 DeepSeek API 密钥，围绕项目开启多个对话，也可独立聊天。伙伴能结合恢复摘要与暂放区文件清单，按需检索材料、编辑文件或执行命令。没有密钥或离线时，仍可记录工作并生成本地交接摘要。</p></details>
+<details class="faq"><summary>数据保存在哪里？会上传吗？</summary><p>默认只保存在你的设备上：macOS 在 <code>~/Library/Application Support/PixoTap</code>，Windows 在 <code>%LocalAppData%\PixoTap</code>，Linux 在 <code>~/.local/share/PixoTap</code>。截图原图与照片留在本机；AI 处理范围见<a href="/privacy/">隐私政策</a>。</p></details>
+<details class="faq"><summary>AI 伙伴能做什么？</summary><p>使用你自己的 DeepSeek API 密钥，围绕项目开启多个对话，也可独立聊天。伙伴结合恢复摘要与资料，帮你找回线索、安排先后并拆出下一步。需要修改文件时，直接说明要完成的操作。没有密钥或离线时，仍可记录工作并生成本地交接摘要。</p></details>
 <details class="faq"><summary>换一台电脑，怎么接着做？</summary><p>在两台设备上登录同一账号，主动开启同步，并使用相同的同步口令或恢复密钥。项目、恢复笔记、对话与偏好设置会在设备端加密后同步；截图、照片与原始工作文件不随同步传输。</p></details>
 <details class="faq"><summary>怎么卸载？</summary><p>macOS：把应用拖进废纸篓。Windows：在“设置 &gt; 应用”中卸载。Linux：运行高级里的卸载命令。卸载不会删除你的数据目录。</p></details>
-<details class="faq"><summary>怎么停止记录？</summary><p>点“记下断点”即可；隐藏入口或退出程序也会停止记录。</p></details>
+<details class="faq"><summary>伙伴访问项目目录时怎么授权？</summary><p>首次选择允许读写的项目目录，软件会记住这个目录及子目录的授权。后续文件操作沿用该选择。</p></details>
+<details class="faq"><summary>怎么停止记录？</summary><p>点“保存断点”即可；隐藏入口或退出程序也会停止记录。</p></details>
 
 <details class="faq adv" id="advanced"><summary>高级</summary>
 <h3>校验下载文件（SHA-256）</h3>
@@ -111,8 +112,8 @@ Get-FileHash -Algorithm SHA256 &lt;文件&gt;      # Windows（PowerShell）</co
 <figure class="step-fig"><img class="step-art" src="/docs-art/step-permissions.en.svg" alt="Illustration: the system permission window with screen recording and accessibility on, camera optional" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="start">
-<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">3</span><h2>Start working, mark a checkpoint when you leave</h2></div><p>Pick a project in the island (or the workbench) and press Start. When you step away, press Mark checkpoint. Nothing is recorded until you press Start.</p></div>
-<figure class="step-fig"><img class="step-art" src="/docs-art/step-start.en.svg" alt="Illustration: the island timer with Mark checkpoint and Keep focusing buttons" width="560" height="340" loading="lazy"></figure>
+<div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">3</span><h2>Start working, mark a checkpoint when you leave</h2></div><p>Pick a project in the island (or the workbench) and press Start. When you step away, press Save checkpoint. Nothing is recorded until you press Start.</p></div>
+<figure class="step-fig"><img class="step-art" src="/docs-art/step-start.en.svg" alt="Illustration: the island Work tab with Start recording and Save checkpoint buttons" width="560" height="340" loading="lazy"></figure>
 </li>
 <li class="step" id="return">
 <div class="step-copy"><div class="step-head"><span class="step-no" aria-hidden="true">4</span><h2>Come back and pick up your progress</h2></div><p>Open the same project to see where you left off and what to do next.</p></div>
@@ -127,9 +128,10 @@ Get-FileHash -Algorithm SHA256 &lt;文件&gt;      # Windows（PowerShell）</co
 <h2 id="faq" class="sec">FAQ</h2>
 <details class="faq"><summary>Do I need an account?</summary><p>No. Accounts are optional, use email and password only, and let you manage your profile, authorized devices, consents, data export and deletion. Signing in does not enable sync automatically.</p></details>
 <details class="faq"><summary>Where is my data stored? Is it uploaded?</summary><p>On your device by default: <code>~/Library/Application Support/PixoTap</code> on macOS, <code>%LocalAppData%\PixoTap</code> on Windows, <code>~/.local/share/PixoTap</code> on Linux. Original screenshots, photos, file contents and clipboard text are never uploaded. See the <a href="/privacy/">Privacy Policy</a>.</p></details>
-<details class="faq"><summary>What can the AI companion do?</summary><p>With your own DeepSeek API key, keep multiple project conversations or chat independently. Your companion can use recovery summaries and shelf file lists to find materials, edit files or run commands as needed. Without a key or while offline, you can still record work and generate local hand-off notes.</p></details>
+<details class="faq"><summary>What can the AI companion do?</summary><p>With your own DeepSeek API key, keep multiple project conversations or chat independently. Your companion uses recovery notes and materials to find context, order priorities and plan your next step. Ask explicitly when you want a file changed. Without a key or while offline, you can still record work and generate local hand-off notes.</p></details>
 <details class="faq"><summary>How do I continue on another computer?</summary><p>Sign in to the same account on both devices, enable sync, and use the same sync passphrase or recovery key. Projects, recovery notes, conversations and preferences are encrypted on your device before syncing. Screenshots, photos and original work files are excluded.</p></details>
 <details class="faq"><summary>How do I uninstall?</summary><p>macOS: drag the app to the Trash. Windows: remove it in Settings &gt; Apps. Linux: run the uninstall command under Advanced. Your data folder is kept.</p></details>
+<details class="faq"><summary>How do I grant project folder access?</summary><p>Choose the project folder once. PixoTap remembers access to that folder and its subfolders for later file operations.</p></details>
 <details class="faq"><summary>How do I stop recording?</summary><p>Press Mark checkpoint; hiding the entry point or quitting the app also stops recording.</p></details>
 
 <details class="faq adv" id="advanced"><summary>Advanced</summary>

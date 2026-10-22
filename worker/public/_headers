@@ -16,6 +16,10 @@
   Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-kbrNFswnABaXWegWxAI+Y6rsRL2W0vyfsAxBuG+Pybk='; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; upgrade-insecure-requests
   Cross-Origin-Resource-Policy: same-origin
 
+/concept/
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-kbrNFswnABaXWegWxAI+Y6rsRL2W0vyfsAxBuG+Pybk='; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; upgrade-insecure-requests
+  Cross-Origin-Resource-Policy: same-origin
+
 /docs/
   Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-kbrNFswnABaXWegWxAI+Y6rsRL2W0vyfsAxBuG+Pybk='; style-src 'self'; img-src 'self' data:; font-src 'self'; media-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; upgrade-insecure-requests
   Cross-Origin-Resource-Policy: same-origin
@@ -33,7 +37,7 @@
   Cross-Origin-Resource-Policy: same-origin
 
 /
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-bQtuRk6XEyXEkaJo27XKb5K1W1EtTCtRdGc8j8pfP6o=' 'sha256-wPf67E6CSpkyN8S9d9bKy1Wg97BjFgwDcJ7nVZa/yiE=' 'sha256-nelfbA13uNvh3EEl5spyCDbVh5vtntu1Tlm7TXHmm7Y='; style-src 'self' 'sha256-/J5uMNowc3jVxJm2WJx73q/J6LOTdrH9PhwpNc9gszA='; img-src 'self' data: blob:; font-src 'self'; media-src 'self'; connect-src 'self' blob:; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-MB529L/lqWfjjP4w6MiCOZc1EEh6duWOU5hnCgdLA4o='; style-src 'self' 'sha256-eGkKq+5LZx/ZZ79gOBrlUQ43rhizGf1XXxx7QP6cYrM='; img-src 'self' data: blob:; font-src 'self'; media-src 'self'; connect-src 'self' blob:; object-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'; upgrade-insecure-requests
   Cross-Origin-Resource-Policy: same-origin
 
 /privacy/

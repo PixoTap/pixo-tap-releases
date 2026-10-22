@@ -10,18 +10,18 @@
   --px-brand-yellow: #f6df77;
   --px-brand-black: #242424;
   --px-brand-green: #a8eea2;
-  --px-wb-canvas: #f7f8fa;
-  --px-wb-surface: #ffffff;
-  --px-wb-border: #dee4eb;
-  --px-wb-sidebar: #f1f5f8;
-  --px-wb-hero: #eaf3fa;
-  --px-wb-hero-border: #d9e7f2;
-  --px-wb-coral: #d5374d;
+  --px-wb-canvas: #fbf8ed;
+  --px-wb-surface: #fffdf7;
+  --px-wb-border: #d7d5c9;
+  --px-wb-sidebar: #e8eff6;
+  --px-wb-hero: #e6f0f8;
+  --px-wb-hero-border: #c5d9ea;
+  --px-wb-coral: #ae4b3f;
   --px-wb-blue: #326991;
   --px-wb-warning: #866114;
-  --px-wb-selection: #e7f0f8;
-  --px-wb-text: #1f2328;
-  --px-wb-muted: #5f6670;
+  --px-wb-selection: #d9eaf7;
+  --px-wb-text: #181915;
+  --px-wb-muted: #55594f;
   --px-wb-on-coral: #ffffff;
   --px-radius-control-workbench: 11px;
   --px-radius-control-island: 10px;
@@ -30,18 +30,18 @@
   --px-radius-hero: 20px;
   --px-size-control-primary: 40px;
   --px-size-control-secondary: 36px;
-  --px-size-touch-min: 36px;
+  --px-size-touch-min: 44px;
   --px-size-border-width: 1px;
   --px-size-selected-border-width: 2px;
-  --px-font-size-footnote: 11px;
-  --px-font-size-caption: 12px;
-  --px-font-size-control: 13px;
-  --px-font-size-body: 14px;
-  --px-font-size-body-large: 15px;
+  --px-font-size-footnote: 14px;
+  --px-font-size-caption: 14px;
+  --px-font-size-control: 15px;
+  --px-font-size-body: 16px;
+  --px-font-size-body-large: 17px;
   --px-font-size-notebook-title: 17px;
-  --px-font-size-heading: 18px;
-  --px-font-size-title: 24px;
-  --px-font-size-display: 26px;
+  --px-font-size-heading: 20px;
+  --px-font-size-title: 26px;
+  --px-font-size-display: 28px;
   --px-font-size-timer: 58px;
   --px-font-weight-light: 300;
   --px-font-weight-regular: 400;
@@ -95,13 +95,13 @@
   --px-active-bg: color-mix(in srgb, var(--yellow) 55%, transparent);
   --px-pill: 999px;
   --shadow-soft: 0 18px 50px rgba(54, 48, 35, 0.10);
-  --font-body: "MiSans", var(--px-font-web);
+  --font-body: var(--px-font-web);
   --radius-sm: 14px;
   --radius-md: 24px;
   color-scheme: light;
 }
 * { box-sizing: border-box; }
-body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--cream); color: var(--ink); font: var(--px-font-weight-regular) 16px/1.65 var(--font-body); }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: var(--cream); color: var(--ink); font: var(--px-font-weight-regular) 18px/1.65 var(--font-body); }
 /* sticky footer：页脚始终贴在视口底部，内容少时 main 撑满剩余高度 */
 #root { flex: 1 0 auto; display: flex; flex-direction: column; min-width: 0; }
 :is(body, #root) > :not(.px-skip, script, noscript, style) { width: 100%; }
@@ -295,3 +295,12 @@ details.adv h3 { margin: 18px 0 6px; }
   .px-main .step h2 { font-size: 1.3rem; }
   .step:not(:last-child)::after { height: 40px; }
 }
+
+/* Keep guide commands inside narrow screens, including collapsed details. */
+.px-main { font-size:18px; line-height:1.75; }
+.px-main::before { max-width:100vw; }
+.px-main pre { min-width:0; max-width:100%; white-space:pre-wrap; overflow-wrap:anywhere; }
+.px-main pre code { white-space:pre-wrap; overflow-wrap:anywhere; word-break:break-word; }
+.step,.step-copy,.dtabs,.dpanel { min-width:0; }
+.concept-art { margin:32px 0; }
+.concept-art img { width:100%; height:auto; border-radius:24px; }
